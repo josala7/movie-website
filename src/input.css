@@ -1,0 +1,8 @@
+@import "tailwindcss";
+header.shadow {
+  @apply bg-[#020307] shadow-md;
+}
+header.shadow .navbar a,
+header.shadow .logo {
+  @apply text-white;
+}
